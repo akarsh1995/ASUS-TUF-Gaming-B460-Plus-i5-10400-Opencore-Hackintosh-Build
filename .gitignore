@@ -1,0 +1,11 @@
+**/.DS_Store
+**/.AppleDouble
+**/.LSOverride
+**/._*
+Microsoft/
+ubuntu/
+OC/Resources/
+OC/Drivers/OpenCanopy.efi
+BOOT/*
+!BOOT/BOOTX64.efi
+OC/config.plist
