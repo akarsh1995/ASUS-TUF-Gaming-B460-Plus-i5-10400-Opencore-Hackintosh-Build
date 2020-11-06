@@ -4,8 +4,6 @@
 
 ![desktop](screenshots/desktop.png)
 ![benchmark-cpu](screenshots/benchmark-cpu.png)
-![benchmark-gpu](screenshots/benchmark-gpu.png)
-![cinebench](screenshots/cinebench.png)
 
 ## OpenCore Version: 0.6.2 (DEBUG)
 
@@ -41,7 +39,8 @@
 | :white_check_mark: | Ethernet                                     |
 | :x:                | External HDD via USB3.0 [2]                  |
 
-[1] NOTE: Internal Ports need to be mapped in `USBMap.kext`. Once I receive my Fenvi T919 I'll remap and update the repo. Kindly map if you plan to use internal usb ports. Generate a pull request.
+[1] NOTE: Internal Ports need to be mapped in `USBMap.kext`. Once I receive my Fenvi T919 I'll remap and update the repo. Kindly map if you plan to use internal usb ports. Generate a pull request.  
+
 [2] Perhaps power issue (Will try my best resolving.)
 
 ### Installation Notes
