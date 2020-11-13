@@ -684,6 +684,8 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -820,7 +822,10 @@
 				<data>Ag==</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-			<dict/>
+			<dict>
+				<key>rtc-blacklist</key>
+				<data></data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>SystemAudioVolume</key>
@@ -845,6 +850,10 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+			</array>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<array>
+				<string>rtc-blacklist</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
@@ -913,6 +922,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>CustomMemory</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -999,6 +1010,8 @@
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
+			<false/>
+			<key>ForceResolution</key>
 			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>

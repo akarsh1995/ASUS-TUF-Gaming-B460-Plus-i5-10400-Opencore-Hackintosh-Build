@@ -5,7 +5,7 @@
 ![desktop](screenshots/desktop.png)
 ![benchmark-cpu](screenshots/benchmark-cpu.png)
 
-## OpenCore Version: 0.6.2 (DEBUG)
+## OpenCore Version: 0.6.3 (DEBUG)
 
 ## Guide Link: [Dortania's](https://dortania.github.io/OpenCore-Install-Guide/)
 
