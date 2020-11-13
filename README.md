@@ -37,6 +37,7 @@
 | :white_check_mark: | iGPU Stability                                        |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
 | :white_check_mark: | Ethernet                                              |
+| :white_check_mark: | Airplay                                               |
 
 > **Everything works** :smirk: Let me know what doesn't :exclamation: 
 
