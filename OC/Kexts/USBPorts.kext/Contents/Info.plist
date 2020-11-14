@@ -48,16 +48,16 @@
 				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
-				FgAAAA==
+				GAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HS02</key>
 					<dict>
 						<key>Comment</key>
-						<string>31</string>
+						<string>Front 2</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS02</string>
 						<key>port</key>
@@ -68,9 +68,9 @@
 					<key>HS03</key>
 					<dict>
 						<key>Comment</key>
-						<string>35</string>
+						<string>Internal For bluetooth Reserved</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>name</key>
 						<string>HS03</string>
 						<key>port</key>
@@ -81,9 +81,9 @@
 					<key>HS04</key>
 					<dict>
 						<key>Comment</key>
-						<string>34</string>
+						<string>Rear23</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS04</string>
 						<key>port</key>
@@ -94,9 +94,9 @@
 					<key>HS05</key>
 					<dict>
 						<key>Comment</key>
-						<string>33</string>
+						<string>Rear22</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS05</string>
 						<key>port</key>
@@ -107,9 +107,9 @@
 					<key>HS06</key>
 					<dict>
 						<key>Comment</key>
-						<string>32</string>
+						<string>Rear21</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS06</string>
 						<key>port</key>
@@ -120,9 +120,9 @@
 					<key>HS07</key>
 					<dict>
 						<key>Comment</key>
-						<string>37</string>
+						<string>Rear25</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS07</string>
 						<key>port</key>
@@ -133,9 +133,9 @@
 					<key>HS08</key>
 					<dict>
 						<key>Comment</key>
-						<string>36</string>
+						<string>Rear24</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS08</string>
 						<key>port</key>
@@ -145,8 +145,10 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>Front3</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS02</string>
 						<key>port</key>
@@ -154,8 +156,36 @@
 						EgAAAA==
 						</data>
 					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>Comment</key>
+						<string>Rear 33</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
+						<key>port</key>
+						<data>
+						FAAAAA==
+						</data>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>Comment</key>
+						<string>Rear 32</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS05</string>
+						<key>port</key>
+						<data>
+						FQAAAA==
+						</data>
+					</dict>
 					<key>SS06</key>
 					<dict>
+						<key>Comment</key>
+						<string>Rear 31</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>name</key>
@@ -163,6 +193,32 @@
 						<key>port</key>
 						<data>
 						FgAAAA==
+						</data>
+					</dict>
+					<key>SS07</key>
+					<dict>
+						<key>Comment</key>
+						<string>Rear 35</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS07</string>
+						<key>port</key>
+						<data>
+						FwAAAA==
+						</data>
+					</dict>
+					<key>SS08</key>
+					<dict>
+						<key>Comment</key>
+						<string>Rear 34</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS08</string>
+						<key>port</key>
+						<data>
+						GAAAAA==
 						</data>
 					</dict>
 				</dict>
