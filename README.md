@@ -67,6 +67,7 @@
 - USB3.0 issue fix
   - While remapping the USB ports I realized that the `USBInjectAll.kext/Contents/Info.plist` does not have the correct usb controller device id thanks to  [u/Dradis101](https://www.reddit.com/user/Dradis101) needed to rename `A2AF` to `A3AF` then the mapping process. (Find link in reference)
   - Then I performed the mapping using [:white_check_mark: hackintool](https://github.com/headkaze/Hackintool/releases/). I could've done manual mapping as well using this guide [:white_check_mark: manual mapping](https://dortania.github.io/OpenCore-Post-Install/usb/manual/manual.html#usb-mapping)
+  - ****Warning:** USB2 and USB3 are mapped separately always !! Never ever dare to think that the USB Type 3 port would automatically handle USB Type 2 devices. This is because when the USB2 and USB3 type devices  inserted in the same port maps to different port location in the system. See the mapping in the screenshot. ![Different USB types having different location ids](screenshots/usb_ports.png)
   - **NOTE:** [:x: Intel auto mapping does not work](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html#usb-mapping)
 
 
