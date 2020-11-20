@@ -33,7 +33,7 @@
 | :white_check_mark: | Sound + Mic                                           |
 | :white_check_mark: | HDMI (Audio + Graphics)                               |
 | :white_check_mark: | DRM Content                                           |
-| :white_check_mark: | Power Management (800 MHz TFM)                       |
+| :white_check_mark: | Power Management (800 MHz TFM found in BIOS)          |
 | :white_check_mark: | iGPU Stability                                        |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
 | :white_check_mark: | Ethernet                                              |
