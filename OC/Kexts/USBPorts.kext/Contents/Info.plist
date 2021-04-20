@@ -143,6 +143,19 @@
 						CAAAAA==
 						</data>
 					</dict>
+					<key>HS10</key>
+					<dict>
+						<key>Comment</key>
+						<string>Bluetooth</string>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS10</string>
+						<key>port</key>
+						<data>
+						CgAAAA==
+						</data>
+					</dict>
 					<key>SS02</key>
 					<dict>
 						<key>Comment</key>

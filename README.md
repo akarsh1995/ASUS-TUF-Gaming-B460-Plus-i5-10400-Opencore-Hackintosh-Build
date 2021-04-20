@@ -3,6 +3,7 @@
 ![OpenCore Icon](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/OpenCore_with_text_Small.png)
 
 ![desktop](screenshots/desktop.png)
+![wifi_bluetooth](screenshots/wifi_bluetooth_working.png)
 ![benchmark-cpu](screenshots/benchmark-cpu.png)
 
 ## OpenCore Version: 0.6.3 (DEBUG)
@@ -19,7 +20,7 @@
 | dGPU        | NVIDIA 1650 Super (Disabled)                |
 | Audio       | Realtek S1200A codec *layout-id: 1*         |
 | Ethernet    | Intel® I219-V LAN                           |
-| WiFi        | **Will update once I receive module**       |
+| WiFi        | Fenvi-T919                                  |
 | RAM         | HyperX FURY DDR4 HX432C16FB3/8 (X2)         |
 | SSD         | Crucial P5 500GB 3D NAND NVMe CT500P5SSD8   |
 | Motherboard | ASUS TUF Gaming B460 Plus BIOS Version 1401 |
@@ -38,6 +39,8 @@
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
 | :white_check_mark: | Ethernet                                              |
 | :white_check_mark: | Airplay                                               |
+| :white_check_mark: | Wifi                                                  |
+| :white_check_mark: | Bluetooth                                             |
 
 > **Everything works** :smirk: Let me know what doesn't :exclamation: 
 
