@@ -33,7 +33,7 @@
 | :white_check_mark: | All USB External Ports (3.0 + 2.0 ) including F-Panel |
 | :white_check_mark: | Sound + Mic                                           |
 | :white_check_mark: | HDMI (Audio + Graphics)                               |
-| :white_check_mark: | DRM Content                                           |
+| :x:                | DRM Content in Safari (Reason: IGPU only)             |
 | :white_check_mark: | Power Management (800 MHz TFM found in BIOS)          |
 | :white_check_mark: | iGPU Stability                                        |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
@@ -42,7 +42,8 @@
 | :white_check_mark: | Wifi                                                  |
 | :white_check_mark: | Bluetooth                                             |
 
-> **Everything works** :smirk: Let me know what doesn't :exclamation: 
+> **DRM content Netflix/Prime/AppleTV+ cannot be played in Safari/AppleTV+** 
+> **Plays well in Chrome/Firefox** 
 
 ### Installation Notes
 - Before using the [BIOS](BIOS/HackintoshBuild.CMO) profile provided in this repo. :warning: :warning: Update the BIOS to the version 1401 :warning: :warning:. BIOS file: [Direct Download](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/TUF-GAMING-B460-PLUS-ASUS-1401.zip). If you've Windows 10 installed I recommend you use [Asus AI Suite](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/ASUS_AI_Suite_3_V3.00.59_WIN10_64-bit.zip) and update BIOS using this utility. Universal update instructions can be found on [BIOS EZ flash utility](https://www.asus.com/in/support/FAQ/1008859/). 
