@@ -3,10 +3,9 @@
 ![OpenCore Icon](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/OpenCore_with_text_Small.png)
 
 ![desktop](screenshots/desktop.png)
-![wifi_bluetooth](screenshots/wifi_bluetooth_working.png)
 ![benchmark-cpu](screenshots/benchmark-cpu.png)
 
-## OpenCore Version: 0.6.3 (DEBUG)
+## OpenCore Version: 0.6.9 (DEBUG) (BIG SUR supported)
 
 ## Guide Link: [Dortania's](https://dortania.github.io/OpenCore-Install-Guide/)
 
@@ -34,7 +33,6 @@
 | :white_check_mark: | Sound + Mic                                           |
 | :white_check_mark: | HDMI (Audio + Graphics)                               |
 | :x:                | DRM Content in Safari (Reason: IGPU only)             |
-| :white_check_mark: | Power Management (800 MHz TFM found in BIOS)          |
 | :white_check_mark: | iGPU Stability                                        |
 | :white_check_mark: | Sleep (also with peripherals plugged in)              |
 | :white_check_mark: | Ethernet                                              |
@@ -46,7 +44,7 @@
 > **Plays well in Chrome/Firefox** 
 
 ### Installation Notes
-- Before using the [BIOS](BIOS/HackintoshBuild.CMO) profile provided in this repo. :warning: :warning: Update the BIOS to the version 1401 :warning: :warning:. BIOS file: [Direct Download](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/TUF-GAMING-B460-PLUS-ASUS-1401.zip). If you've Windows 10 installed I recommend you use [Asus AI Suite](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/ASUS_AI_Suite_3_V3.00.59_WIN10_64-bit.zip) and update BIOS using this utility. Universal update instructions can be found on [BIOS EZ flash utility](https://www.asus.com/in/support/FAQ/1008859/). 
+- Before using the [BIOS](BIOS/HackintoshBuildOC_0_6_9.CMO) profile provided in this repo. :warning: :warning: Update the BIOS to the version 1401 :warning: :warning:. BIOS file: [Direct Download](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/TUF-GAMING-B460-PLUS-ASUS-1401.zip). If you've Windows 10 installed I recommend you use [Asus AI Suite](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/ASUS_AI_Suite_3_V3.00.59_WIN10_64-bit.zip) and update BIOS using this utility. Universal update instructions can be found on [BIOS EZ flash utility](https://www.asus.com/in/support/FAQ/1008859/). 
 - Rename [sample_config.plist](OC/sample_config.plist#L899) to config.plist
 - Replace the SMBIOS Information generating a new one. [iMac20,1](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
 - Follow the Dortania's installation Guide to [prepare usb stick](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#creating-the-usb) and then the [installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#installation-process).
@@ -58,7 +56,7 @@
 ### What not goes along with the Dortania's Guide.
 - `SSDT-RHUB.aml` after tinkerning a lot realized that it is not required.
 - `XHCI-unsupported.kext` needed to be added (probably B460 chipset issue).
-- `DeviceProperties -> PciRoot(0x0)/Pci(0x2,0x0) - device-id = 983E0000` alongwith framebuffer patching. 
+- `DeviceProperties -> PciRoot(0x0)/Pci(0x2,0x0) - device-id = 923E0000 alongwith framebuffer patching. 
   *Stumbled this error when app:* 
   - Alacritty: Thrown ```Assertion failed: (0), function CreateCompiler, file /Library/Caches/com.apple.xbs/Sources/GPUDriversIntel/GPUDriversIntel-14.7.8/GLRenderer/kbl/usc_interface.cpp, line 1676.``` 
   - Safari: Pages were crashing. 
@@ -75,3 +73,5 @@
 ### References: 
   - [Intel® UHD Graphics 630 fix](https://www.reddit.com/r/hackintosh/comments/gx4oyk/uhd_630_graphics_fix_for_open_core/)
   - [USB 3 fix](https://www.reddit.com/r/hackintosh/comments/id1lm9/please_help_me_get_these_usb_3_ports_working/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
+  - Thanks to [dovtuan](https://github.com/dovtuan/Gigabyte-B460M-Aorus-Pro-Hackintosh-Open-Core) for maintaining the OC configuration for Gigabyte-B460M-Aorus-Pro
+ 
