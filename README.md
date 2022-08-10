@@ -65,9 +65,6 @@
 
 - Follow the Dortania's installation Guide to [prepare usb stick](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#creating-the-usb) and then the [installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#installation-process).
 
-### Benchmarks:
-- [CPU GeekBench](https://browser.geekbench.com/v5/cpu/4534195)
-- [GPU GeekBench](https://browser.geekbench.com/v5/compute/1771511)
 
 ### What not goes along with the Dortania's Guide.
 - `SSDT-RHUB.aml` after tinkerning a lot realized that it is not required.
