@@ -3,9 +3,19 @@
 ![OpenCore Icon](https://github.com/acidanthera/OpenCorePkg/raw/master/Docs/Logos/OpenCore_with_text_Small.png)
 
 ![desktop](screenshots/desktop.png)
-![benchmark-cpu](screenshots/benchmark-cpu.png)
 
-## OpenCore Version: 0.6.9 (DEBUG) (BIG SUR supported)
+
+![benchmark-cpu](screenshots/benchmark-cpu.png)
+[BenchmarkCPU](https://browser.geekbench.com/v5/cpu/16550946)
+
+---
+
+![benchmark-gpu](screenshots/benchmark-gpu.png)
+[BenchmarkGPU](https://browser.geekbench.com/v5/compute/5282859)
+
+---
+
+## OpenCore Version: 0.8.3 (DEBUG) (Monterey supported)
 
 ## Guide Link: [Dortania's](https://dortania.github.io/OpenCore-Install-Guide/)
 
@@ -28,7 +38,7 @@
 
 | Works              | Feature                                               |
 |--------------------|-------------------------------------------------------|
-| :white_check_mark: | Apple TV+, Siri, iTunes, Appstore, Facetime           |
+| :white_check_mark: | Siri, Appstore, Facetime                              |
 | :white_check_mark: | All USB External Ports (3.0 + 2.0 ) including F-Panel |
 | :white_check_mark: | Sound + Mic                                           |
 | :white_check_mark: | HDMI (Audio + Graphics)                               |
@@ -44,9 +54,15 @@
 > **Plays well in Chrome/Firefox** 
 
 ### Installation Notes
-- Before using the [BIOS](BIOS/HackintoshBuildOC_0_6_9.CMO) profile provided in this repo. :warning: :warning: Update the BIOS to the version 1401 :warning: :warning:. BIOS file: [Direct Download](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/TUF-GAMING-B460-PLUS-ASUS-1401.zip). If you've Windows 10 installed I recommend you use [Asus AI Suite](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/ASUS_AI_Suite_3_V3.00.59_WIN10_64-bit.zip) and update BIOS using this utility. Universal update instructions can be found on [BIOS EZ flash utility](https://www.asus.com/in/support/FAQ/1008859/). 
-- Rename [sample_config.plist](OC/sample_config.plist#L899) to config.plist
-- Replace the SMBIOS Information generating a new one. [iMac20,1](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo)
+- Before using the [BIOS](BIOS/HackintoshBuildOC_0_6_9.CMO) profile provided in this repo. :warning: :warning: Update the BIOS to the version 1401 :warning: :warning:. BIOS file: [Direct Download](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/TUF-GAMING-B460-PLUS-ASUS-1401.zip). If you've Windows 10 installed I recommend you use [Asus AI Suite](https://dlcdnets.asus.com/pub/ASUS/mb/LGA1200/TUF_GAMING_B460-PLUS/ASUS_AI_Suite_3_V3.00.59_WIN10_64-bit.zip) and update BIOS using this utility. Universal update instructions can be found on [BIOS EZ flash utility](https://www.asus.com/in/support/FAQ/1008859/).  
+
+- Rename [`sample_config.plist`](OC/sample_config.plist) to `config.plist`
+
+- Replace the SMBIOS Information by generating a new one [Refer iMac20,1](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo). If you're upgrading the OS you just need to make replacements with your current `config.plist` values. 
+  - Replace  [`{replace with Board Serial}`](OC/sample_config.plist#L1023) with generated **Board Serial**. 
+  - Replace  [`{replace with Serial}`](OC/sample_config.plist#L1035) with generated **Serial**. 
+  - Replace  [`{replace with SmUUID}`](OC/sample_config.plist#L1037) with generated **SmUUID**.  
+
 - Follow the Dortania's installation Guide to [prepare usb stick](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/#creating-the-usb) and then the [installation process](https://dortania.github.io/OpenCore-Install-Guide/installation/installation-process.html#installation-process).
 
 ### Benchmarks:
